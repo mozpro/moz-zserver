@@ -1,3 +1,14 @@
+<html lang="de">
+	<title>Einführung in Javascript</title>
+</head>
+<body>
+
+<script>
+	alert('das ist ein test link zur info');
+</script>
+</body>  
+<head>
+
 <!DOCTYPE html>
 
 <html>
