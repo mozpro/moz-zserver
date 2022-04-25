@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Fenstertitel</title>
+<script type="text/javascript">
+window.onload = function(){
+	var c = document.getElementById("change");
+	var old = true;
+	c.onclick = function(){
+		if (old){
+			document.body.style.backgroundColor = "red";
+			this.innerHTML = "reset";
+			old = false;
+		}
+		else {
+			document.body.style.backgroundColor = "";
+			this.innerHTML = "change BG";
+			old = true;
+		}
+	}
+}
+</script>
+<style type="text/css">
+#change {
+	cursor: pointer;
+}</style>
+</head>
+<body>
+<span id="change">change BG</span>
+</body>
+</html>
