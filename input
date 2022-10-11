@@ -1,1 +1,26 @@
-<!DOCTYPE Html>
+<script>
+    alert('hi');
+</script>
+<input type="text" name="" value="">
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <input>Title of the document</input>
+    <style>
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        color: #fd0000;
+        background-color: #000000;
+        border-radius: 6px;
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <a class="button" href="http://moz.zserver.de/">HTML button tag</a>
+  </body>
+</html>
